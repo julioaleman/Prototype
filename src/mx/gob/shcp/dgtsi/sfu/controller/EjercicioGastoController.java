@@ -23,4 +23,10 @@ public class EjercicioGastoController {
 		
 		return "ejercicio_gasto/registro_masivo";
 	}
+	
+	@RequestMapping(method = RequestMethod.GET, value = "consultar-ejercicio-gasto.do")
+	public String consultar(Model modelo){
+		
+		return "ejercicio_gasto/consultar";
+	}
 }

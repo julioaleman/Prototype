@@ -200,7 +200,7 @@
 											    	<span class="info-box-number">139</span>
 											  	</div>
 										  	</div>
-										  	<a class="btn btn-info btn-block" href="consultar.do" role="button">Registra Avances</a>
+										  	<a class="btn btn-info btn-block" href="consultar-ejercicio-gasto.do" role="button">Registra Avances</a>
 									  	</div><!-- /.box-body -->
 									</div><!-- /.box -->
 							    </div>
