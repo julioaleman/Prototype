@@ -5,7 +5,7 @@
 <head>
     <jsp:include page="head.jsp" />
 </head>
-<body class="hold-transition skin-hight layout-top-nav">
+<body class="hold-transition skin-black-light layout-top-nav">
 	<div class="wrapper">
 		<jsp:include page="menu.jsp" />
 
@@ -33,7 +33,7 @@
 							<!-- /.box-header -->
 							<div class="box-body">
 
-								<div class="col-lg-6 col-xs-12">
+								<div class="col-lg-6 col-xs-6">
 									<!-- small box -->
 									<div class="small-box bg-aqua">
 										<a href="#" class="small-box-header">Ejercicio del gasto</a>
@@ -46,7 +46,7 @@
 									</div>
 								</div>
 								<!-- ./col -->
-								<div class="col-lg-6 col-xs-12">
+								<div class="col-lg-6 col-xs-6">
 									<!-- small box -->
 									<div class="small-box bg-green">
 										<a href="#" class="small-box-header">Proyectos de Inversión</a>
@@ -76,7 +76,7 @@
 							<!-- /.box-header -->
 							<div class="box-body">
 
-								<div class="col-lg-6 col-xs-12">
+								<div class="col-lg-6 col-xs-6">
 									<!-- small box -->
 									<div class="small-box bg-yellow">
 										<a href="#" class="small-box-header">Indicadores</a>
@@ -91,7 +91,7 @@
 									</div>
 								</div>
 								<!-- ./col -->
-								<div class="col-lg-6 col-xs-12">
+								<div class="col-lg-6 col-xs-6">
 									<!-- small box -->
 									<div class="small-box bg-red">
 										<a href="#" class="small-box-header">Evaluaciones</a>
@@ -105,7 +105,6 @@
 										<a href="#" class="small-box-footer toggle-visibility" data-target="#divResult">Ver más <i class="fa fa-arrow-circle-right"></i></a>
 									</div>
 								</div>
-								<!-- ./col -->
 
 							</div>
 							<!-- /.box-body -->
@@ -147,8 +146,9 @@
 										  	</div>
 										  	<a class="btn btn-info btn-block" href="registro-ejercicio-gasto.do" role="button">Carga Individual</a>
 										  	<a class="btn btn-info btn-block" href="registro-masivo-ejercicio-gasto.do" role="button">Carga Masiva</a>
-									  	</div><!-- /.box-body -->
-									</div><!-- /.box -->
+										  	<a class="btn btn-info btn-block" href="ejercicio-municipios.do" role="button">Cargar Ejercicio de Municipios</a>
+									  	</div>
+									</div>
 							    </div>
 							    <div class="col-md-3">
 							    	<div class="box">
@@ -401,6 +401,7 @@
         $("#notificationsTable").DataTable({
 
             "info": false,
+            "scrollX": true,
             "language": {
             	"decimal":        "",
                 "emptyTable":     "Sin notificaciones por mostrar",
@@ -445,9 +446,18 @@
         	  
         	  if ($target.is(':hidden')){
         	    $target.show( "slow" );
+        	    
+         	   if ($(window).width() < 991) {
+         		  $('html, body').animate({
+          	        scrollTop: $($target).offset().top
+          	    }, 800);
+         	}
+         	    
         	  }else{
         	  	$target.hide( "slow" );
         	  }
+        	  
+        	  return false;
         	});
       });
       

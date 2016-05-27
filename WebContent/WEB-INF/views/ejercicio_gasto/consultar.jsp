@@ -6,7 +6,7 @@
     <jsp:include page="../head.jsp" />
 </head>
 
-<body class="hold-transition skin-hight layout-top-nav">
+<body class="hold-transition skin-black-light layout-top-nav">
 	<div class="wrapper">
 		<jsp:include page="../menu.jsp" />
 
@@ -28,7 +28,7 @@
 
 				<div class="row">
 					<div class="col-md-12">
-						<div class="box box-success">
+						<div class="box box-info">
 							<div class="box-body">
 								<div class="col-md-6">
 									<div class="form-group">
@@ -43,7 +43,7 @@
 									</div>
 								</div>
 								<div class="col-md-12">
-									<table id="af_table" class="table table-bordered table-striped">
+									<table id="af_table" class="table table-bordered tree">
 										<thead>
 											<tr>
 												<th>Periodo</th>
@@ -58,7 +58,171 @@
 											</tr>
 										</thead>
 										<tbody>
-
+											<tr class="treegrid-1 info">
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Additional info</td>
+												<td>Additional info</td>
+												<td>Additional info</td>
+											</tr>
+											<tr class="treegrid-2 treegrid-parent-1">
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Additional info</td>
+												<td>Additional info</td>
+												<td>Additional info</td>
+											</tr>
+											<tr class="treegrid-3 info">
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Additional info</td>
+												<td>Additional info</td>
+												<td>Additional info</td>
+											</tr>
+											<tr class="treegrid-4 treegrid-parent-3">
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Additional info</td>
+												<td>Node 1-2-1</td>
+												<td>Additional info</td>
+											</tr>
+											<tr class="treegrid-5 treegrid-parent-3">
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Additional info</td>
+												<td>Node 1-2-1</td>
+												<td>Additional info</td>
+											</tr>
+											<tr class="treegrid-6 treegrid-parent-3">
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Additional info</td>
+												<td>Node 1-2-1</td>
+												<td>Additional info</td>
+											</tr>
+											<tr class="treegrid-7 treegrid-parent-3">
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Additional info</td>
+												<td>Node 1-2-1</td>
+												<td>Additional info</td>
+											</tr>
+											<tr class="treegrid-8 treegrid-parent-3">
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Additional info</td>
+												<td>Node 1-2-1</td>
+												<td>Additional info</td>
+											</tr>
+											<tr class="treegrid-9 treegrid-parent-3">
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Additional info</td>
+												<td>Node 1-2-1</td>
+												<td>Additional info</td>
+											</tr>
+											<tr class="treegrid-10 treegrid-parent-3">
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Additional info</td>
+												<td>Node 1-2-1</td>
+												<td>Additional info</td>
+											</tr>
+											<tr class="treegrid-11 treegrid-parent-3">
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Additional info</td>
+												<td>Node 1-2-1</td>
+												<td>Additional info</td>
+											</tr>
+											<tr class="treegrid-12 treegrid-parent-3">
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Additional info</td>
+												<td>Node 1-2-1</td>
+												<td>Additional info</td>
+											</tr>
+											<tr class="treegrid-13 treegrid-parent-3">
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Additional info</td>
+												<td>Node 1-2-1</td>
+												<td>Additional info</td>
+											</tr>
+											<tr class="treegrid-14 treegrid-parent-3">
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Additional info</td>
+												<td>Node 1-2-1</td>
+												<td>Additional info</td>
+											</tr>
+											<tr class="treegrid-15 treegrid-parent-3">
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Root node</td>
+												<td>Additional info</td>
+												<td>Additional info</td>
+												<td>Node 1-2-1</td>
+												<td>Additional info</td>
+											</tr>
 										</tbody>
 									</table>
 									<hr>
@@ -86,160 +250,41 @@
 	
 	<script>
 		$(function() {
-			$('#fechaInicio').datepicker({
-				language : 'es',
-				startDate : '+0d',
-				endDate : '+3m'
-			});
-			$('#fechaFin').datepicker({
-				language : 'es',
-				startDate : '+0d',
-				endDate : '+3m'
-			});
-			$('#fechaConclusionContrato').datepicker({
-				language : 'es',
-				startDate : '+0d',
-				endDate : '+3m'
-			});
-			$('#fechaConclusionObra').datepicker({
-				language : 'es',
-				startDate : '+0d',
-				endDate : '+3m'
-			});
-			$("#ff_table").DataTable({
-				"paging" : false,
-				"lengthChange" : false,
-				"searching" : false,
-				"info" : false,
-				"language" : {
-					"zeroRecords" : "No se han registrado fuentes de financiamiento.",
-					"infoEmpty" : "No records available"
-				}
-			});
+
 			$("#af_table").DataTable({
 				"paging" : false,
 				"lengthChange" : false,
-				"searching" : false,
 				"info" : false,
-				"language" : {
-					"zeroRecords" : "No se han registrado avances financieros.",
-					"infoEmpty" : "No records available"
-				}
-			});
-			$("#cont_table").DataTable({
-				"paging" : false,
-				"lengthChange" : false,
-				"searching" : false,
-				"info" : false,
-				"language" : {
-					"zeroRecords" : "No se han registrado información de obra.",
-					"infoEmpty" : "No records available"
-				}
-			});
-			$("#aff_table").DataTable({
-				"paging" : false,
-				"lengthChange" : false,
-				"searching" : false,
-				"info" : false,
-				"language" : {
-					"zeroRecords" : "No se han registrado avances físicos.",
-					"infoEmpty" : "No records available"
-				}
+				"ordering": false,
+				"searching" : true,
+				"scrollY":        "500px",
+		        "scrollCollapse": true,
+				"language": {
+	            	"decimal":        "",
+	                "emptyTable":     "Sin Programas Presupuestarios por mostrar",
+	                "info":           "Mostrando _START_ de _END_ de _TOTAL_ Programas Presupuestarios",
+	                "infoEmpty":      "0 Notificaciones",
+	                "infoFiltered":   "(filtered from _MAX_ total entries)",
+	                "infoPostFix":    "",
+	                "thousands":      ",",
+	                "lengthMenu":     "Mostrar _MENU_ Programas Presupuestarios",
+	                "loadingRecords": "Cargando...",
+	                "processing":     "Procesando...",
+	                "search":         "Buscar:",
+	                "zeroRecords":    "No matching records found",
+	                "paginate": {
+	                    "first":      "Primero",
+	                    "last":       "Último",
+	                    "next":       "Siguiente",
+	                    "previous":   "Anterior"
+	                }
+	            }
 			});
 			
-		    $('a[title]').tooltip();
+			 $('#af_table').treegrid({
+				 'initialState': 'collapsed'
+			 });
 
-		    $('.btn-submit').on('click', function(e) {
-
-		        var formname = $(this).attr('name'); 
-		        var tabname = $(this).attr('href');
-		        
-		        if ($('#' + formname)[0].checkValidity()) { /* Only works in Firefox/Chrome need polyfill for IE9, Safari. http://afarkas.github.io/webshim/demos/ */
-		            e.preventDefault();
-		            $('ul.nav li a[href="' + tabname + '"]').parent().removeClass('disabled');
-		            $('ul.nav li a[href="' + tabname + '"]').trigger('click');
-		        }
-
-		    });
-
-		    $('ul.nav li').on('click', function(e) {
-		        if ($(this).hasClass('disabled')) {
-		            e.preventDefault();
-		            return false;
-		        }
-		    });
-		    
-		    $(".div_anticipo").hide();
-		    $('.negar_anticipo').on('click', function(e) {
-		    	$(".div_anticipo").hide( "fast" );
-		    });
-		    $('.afirmar_anticipo').on('click', function(e) {
-		    	$(".div_anticipo").show( "fast" );
-		    });
-		    
-		    
-		    var myDropzone = new Dropzone("form#dZUpload", {
-		        url: "upload_file.do",
-		        addRemoveLinks: true,
-		        paramName: "photo_project",
-		        maxFilesize: 4,
-		        maxFiles: 3,
-		        dictRemoveFile: "Eliminar",
-		        
-		        success: function (file, response) {
-		            var imgName = response;
-		            file.previewElement.classList.add("dz-success");
-		        },
-		        error: function (file, response) {
-		          file.previewElement.classList.add("dz-error");
-		        },
-		        removedfile: function(file) {
-				    var name = file.name;
-				    
-				    $.ajax({
-				        type: 'POST',
-				        url: 'remove_file.do',
-				        data: name,
-				        contentType : "application/json",
-				        dataType : 'json'
-				    });
-					var _ref;
-					return (_ref = file.previewElement) != null ? _ref.parentNode.removeChild(file.previewElement) : void 0;        
-				}
-		    }); 
-			
-			myDropzone.on("complete", function(file,response) {
-
-		  	});
-		});
-
-		L.mapbox.accessToken = 'pk.eyJ1IjoicmVndWxlc3RlYmFuIiwiYSI6ImNpbzRzcnM3ODAxbzR2Ymx6YTNvd21uYmYifQ.ib6GnHPfxut6XdW70PXcuw';
-		var map = L.mapbox.map('mapbox', 'mapbox.streets').setView(
-				[ 21, -102 ], 9).addControl(
-				L.mapbox.geocoderControl('mapbox.places', {
-					autocomplete : true
-				}));
-
-		$.ajax({
-			url : './THEME_SFU/maps-resources/div_ags.geojson',
-			dataType : 'json',
-			success : function load(d) {
-
-				var states = L.geoJson(d).addTo(map);
-				L.marker([ 21, -102 ], {
-						icon : L.mapbox.marker.icon({ 'marker-color' : '#f86767' }),
-						draggable : true
-				}).addTo(map).on('dragend', function(e) {
-					var layer = leafletPip.pointInLayer(this.getLatLng(), states, true);
-					if (layer.length) {
-						state.innerHTML = '<strong>'
-								+ layer[0].feature.properties.name
-								+ '</strong>';
-					} else {
-						state.innerHTML = '';
-					}
-				});
-			}
 		});
 
 	</script>

@@ -29,4 +29,10 @@ public class EjercicioGastoController {
 		
 		return "ejercicio_gasto/consultar";
 	}
+	
+	@RequestMapping(method = RequestMethod.GET, value = "ejercicio-municipios.do")
+	public String carga_ejer_municipios(Model modelo){
+		
+		return "ejercicio_gasto/carga-ejer-municipios";
+	}
 }

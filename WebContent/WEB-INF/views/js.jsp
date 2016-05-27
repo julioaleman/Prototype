@@ -44,3 +44,6 @@
 <script src="./THEME_SFU/plugins/jQuery.filer-1.0.5/js/jquery.filer.js"></script>
 <!-- Dropzone -->
 <script src="./THEME_SFU/plugins/dropzone-4.3.0/dist/dropzone.js"></script>
+<!-- TreeTable -->
+<script src="./THEME_SFU/plugins/jquery-treegrid/js/jquery.treegrid.js"></script>
+<script src="./THEME_SFU/plugins/jquery-treegrid/js/jquery.treegrid.bootstrap3.js"></script>

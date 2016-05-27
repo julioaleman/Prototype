@@ -6,13 +6,11 @@
 			<div class="navbar-header">
 				<a href="#" class="navbar-brand">
 					<img alt="Brand" src="./THEME_SFU/dist/img/shcp_logo.jpg" style="max-width:200px; margin-top: -7px;margin-right: 15px;">
+<!-- 					<img alt="Brand" src="./THEME_SFU/dist/img/sfu_logo.png" style="max-width:200px; margin-top: -7px;"> -->
 				</a>
 				<a href="#" class="navbar-brand">
-					<img alt="Brand" src="./THEME_SFU/dist/img/sfu_logo.png" style="max-width:200px; margin-top: -7px;">
+					<img alt="Brand" src="./THEME_SFU/dist/img/sfu_logo.png" class="brand-img" style="max-width:200px; margin-top: -7px;">
 				</a>
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
-					<i class="fa fa-bars"></i>
-				</button>
 			</div>
 
 			<div class="navbar-custom-menu">
@@ -20,9 +18,9 @@
 					<!-- Messages: style can be found in dropdown.less-->
 					<li class="dropdown messages-menu">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                    				<i class="fa fa-envelope-o"></i>
-                    				<span class="label label-danger">4</span>
-                  			</a>
+                  			<i class="fa fa-envelope-o"></i>
+                  			<span class="label label-danger">4</span>
+                		</a>
 						<ul class="dropdown-menu">
 							<li class="header">Tienes 4 mensajes</li>
 							<li>
@@ -105,7 +103,7 @@
 					<li class="dropdown user user-menu">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown"> 
 							<img src="./THEME_SFU/dist/img/asientos-ags.jpg" class="user-image" alt="User Image"> 
-							<span class="hidden-xs">Aguascalientes/Asientos</span>
+							<span class="hidden-xs-user">Aguascalientes/Asientos</span>
 						</a>
 						<ul class="dropdown-menu">
 							<!-- User image -->

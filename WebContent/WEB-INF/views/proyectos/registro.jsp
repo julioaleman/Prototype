@@ -6,7 +6,7 @@
     <jsp:include page="../head.jsp" />
 </head>
 
-<body class="hold-transition skin-hight layout-top-nav">
+<body class="hold-transition skin-black-light layout-top-nav">
 	<div class="wrapper">
 		<jsp:include page="../menu.jsp" />
 
@@ -1030,7 +1030,7 @@
 		        maxFilesize: 4,
 		        maxFiles: 1,
 		        dictRemoveFile: "Eliminar",
-		        
+		        dictResponseError: 'Error while uploading file!',
 		        success: function (file, response) {
 		            var imgName = response;
 		            file.previewElement.classList.add("dz-success");
@@ -1055,6 +1055,14 @@
 			
 			myDropzone.on("complete", function(file,response) {
 
+		  	});
+			myDropzone.on("error", function(file,response) {
+				alert("error");
+				myDropzone.removeFile(file);
+		  	});
+			myDropzone.on("maxfilesexceeded", function(file,response) {
+				alert("Ya no puede cargar más archivos.");
+				myDropzone.removeFile(file);
 		  	});
 		});
 

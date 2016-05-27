@@ -6,7 +6,7 @@
     <jsp:include page="../head.jsp" />
 </head>
 
-<body class="hold-transition skin-hight layout-top-nav">
+<body class="hold-transition skin-black-light layout-top-nav">
 	<div class="wrapper">
 		<jsp:include page="../menu.jsp" />
 

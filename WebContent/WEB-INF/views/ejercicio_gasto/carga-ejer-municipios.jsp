@@ -15,11 +15,11 @@
 			<!-- Content Header (Page header) -->
 			<section class="content-header">
 				<h1>
-					Carga Masiva del Ejercicio <small>Ejercicio del Gasto</small>
+					Cargar Ejercicio de Municipios <small>Ejercicio del Gasto</small>
 				</h1>
 				<ol class="breadcrumb">
 					<li><a href="#"><i class="fa fa-dashboard"></i> Inicio</a></li>
-					<li class="active">Carga Masiva del Ejercicio</li>
+					<li class="active">Cargar Ejercicio de Municipios</li>
 				</ol>
 			</section>
 
@@ -28,51 +28,42 @@
 
 				<div class="row">
 					<div class="col-md-12">
-						<div class="box box-info">
+						<div class="box box-success">
 							<div class="box-body">
 							
-								<div class="row">
-		                        	<div class="col-md-12">
-										<h4>Programas Presupuestarios</h4>
+								<div class="col-md-4">
+									<div class="callout callout-info">
+					                    <h4><i class="fa fa-info"></i> Instrucciones</h4>
+					                    <p>Aquí van las instrucciones.</p>
+					                </div>
+					                <hr>
+									<div class="form-group">
+										<label for="nombreProyecto">Descargar Plantilla</label> 
+										<button type="button" class="btn btn-info btn-block"><i class="icon fa fa-download"></i> Descargar</button>
 									</div>
-									
-									<div class="col-md-3">
-										<div class="callout callout-info">
-						                    <h4>Instrucciones:</h4>
-						                    <p>Paso 1: Haz algo</p>
-						                    <p>Paso 1: Haz algo</p>
-						                    <p>Paso 1: Haz algo</p>
-						                    <p>Paso 1: Haz algo</p>
-						                </div>
-										<div class="form-group">
-											<label for="nombreProyecto">Descargar Plantilla</label> 
-											<button type="button" class="btn btn-info btn-block"><i class="icon fa fa-download"></i> Descargar</button>
-										</div>
-										<div class="form-group">
-											<label for="nombreProyecto">Cargar Plantilla</label> 
-											<input type="file" name="files[]" id="filer_input_carga" multiple="multiple">
-										</div>
+									<div class="form-group">
+										<label for="nombreProyecto">Cargar Plantilla</label> 
+										<input type="file" name="files[]" id="filer_input_carga" multiple="multiple">
 									</div>
-									
-									<div class="col-md-9">
-										<table id="carga_table" class="table table-bordered table-striped">
-											<thead>
-												<tr>
-													<th>Nombre</th>
-													<th>Entidad</th>
-													<th>Municipio</th>
-													<th>Tipo</th>
-													<th>Clasificación</th>
-													<th>Institución</th>
-													<th>Fecha Inicio</th>
-												</tr>
-											</thead>
-											<tbody>
-
-											</tbody>
-										</table>
-									</div>
-									
+								</div>
+				                
+				                <div class="col-md-8">
+									<table id="municipiosTable" class="table table-bordered table-striped">
+					                    <thead>
+					                      <tr>
+					                      	<th>Clave</th>
+					                        <th>Nombre</th>
+					                        <th>Monto</th>
+					                      </tr>
+					                    </thead>
+					                    <tbody>
+					                    
+					                    </tbody>
+				                    </table>
+								</div>
+								<div class="col-md-12">
+									<hr>
+									<button type="button" class="btn btn-primary btn-lg pull-right">Guardar &nbsp;&nbsp;<i class="fa fa-arrow-right"></i></button>
 								</div>
 							</div>
 						</div>
@@ -136,21 +127,38 @@
 		        }
 			});
 			
-			$("#carga_table").DataTable({
-				"paging" : false,
-				"lengthChange" : false,
-				"searching" : false,
-				"info" : false,
-				"scrollX": true,
-				"language" : {
-					"zeroRecords" : "No se ha cargado la plantilla.",
-					"infoEmpty" : "No records available"
-				}
-			});
+			$("#municipiosTable").DataTable({
+
+	            "info": false,
+	            "language": {
+	            	"decimal":        "",
+	                "emptyTable":     "Sin Municipios por mostrar",
+	                "info":           "Mostrando _START_ de _END_ de _TOTAL_ notificaciones",
+	                "infoEmpty":      "0 Notificaciones",
+	                "infoFiltered":   "(filtered from _MAX_ total entries)",
+	                "infoPostFix":    "",
+	                "thousands":      ",",
+	                "lengthMenu":     "Mostrar _MENU_ notificaciones",
+	                "loadingRecords": "Cargando...",
+	                "processing":     "Procesando...",
+	                "search":         "Buscar:",
+	                "zeroRecords":    "No matching records found",
+	                "paginate": {
+	                    "first":      "Primero",
+	                    "last":       "Último",
+	                    "next":       "Siguiente",
+	                    "previous":   "Anterior"
+	                },
+	                "aria": {
+	                    "sortAscending":  ": activate to sort column ascending",
+	                    "sortDescending": ": activate to sort column descending"
+	                }
+	            }
+	        });
 			
+		    
 		});
-		
-		  
+
 	</script>
 </body>
 </html>

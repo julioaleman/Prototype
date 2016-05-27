@@ -6,7 +6,7 @@
     <jsp:include page="../head.jsp" />
 </head>
 
-<body class="hold-transition skin-hight layout-top-nav">
+<body class="hold-transition skin-black-light layout-top-nav">
 	<div class="wrapper">
 		<jsp:include page="../menu.jsp" />
 
@@ -47,16 +47,7 @@
 													<span class="round-tabs two"><i class="fa fa-dollar"></i></span>
 												</a>
 											</li>
-<!-- te abrace en la noche 
- era un abrazo de despedida
- te ibas de mi vida
- 
- te atropo la noche
- la oscuridad traga y no convida
- quedé a la deriva
- 
- 
--->
+
 											<li class="disabled">
 												<a href="#doner" data-toggle="tab" title="completed">
 													<span class="round-tabs five"><i class="glyphicon glyphicon-ok"></i></span>
@@ -138,9 +129,6 @@
 														<input type="text" class="form-control" placeholder="Reintegros">
 													</div>
 												</div>
-
-												<!-- volo mi destino, duró mi vida un instante, dulzura distante -->
-												<!-- corto todos los cordones de todo lo que fui -->
 												
 												<div class="col-xs-12">
 													<hr>
