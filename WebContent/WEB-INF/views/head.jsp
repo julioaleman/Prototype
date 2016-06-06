@@ -5,9 +5,10 @@
 <!-- Bootstrap 3.3.5 -->
 <link rel="stylesheet" href="./THEME_SFU/bootstrap/css/bootstrap.css">
 <!-- Font Awesome -->
+<!-- <link rel="stylesheet" href="./THEME_SFU/dist/css/font-awesome.min.css"> -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <!-- Ionicons -->
-<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+<link rel="stylesheet" href="./THEME_SFU/dist/css/ionicons.min.css">
 <!-- Theme style -->
 <link rel="stylesheet" href="./THEME_SFU/dist/css/AdminLTE.css">
 <!-- AdminLTE Skins. Choose a skin from the css/skins folder instead of downloading all of them to reduce the load. -->
@@ -27,7 +28,7 @@
 <!-- DataTables -->
 <link rel="stylesheet" href="./THEME_SFU/plugins/datatables/dataTables.bootstrap.css">
 <!-- MapBox -->
-<link href='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.css' rel='stylesheet' />
+<link rel="stylesheet" href="./THEME_SFU/plugins/mapbox/mapbox.css">
 <!-- Jquery Filter -->
 <link rel="stylesheet" href="./THEME_SFU/plugins/jQuery.filer-1.0.5/css/jquery.filer.css">
 <link rel="stylesheet" href="./THEME_SFU/plugins/jQuery.filer-1.0.5/css/themes/jquery.filer-dragdropbox-theme.css">
@@ -35,5 +36,8 @@
 <link rel="stylesheet" href="./THEME_SFU/plugins/dropzone-4.3.0/dist/dropzone.css">
 <!-- TreeTable -->
 <link rel="stylesheet" href="./THEME_SFU/plugins/jquery-treegrid/css/jquery.treegrid.css">
+<!-- Accordion -->
+<!-- <link rel="stylesheet" href="./THEME_SFU/plugins/accordion-jquery/css/liteaccordion.css"> -->
+<link rel="stylesheet" href="./THEME_SFU/plugins/accordion-jquery/css/uberaccordion.css">
 
 <title>:: Sistema del Formato Único ::</title>
