@@ -49,7 +49,7 @@
 											</li>
 
 											<li class="disabled">
-												<a href="#doner" data-toggle="tab" title="completed">
+												<a href="#doner" data-toggle="tab" title="¡Completado!">
 													<span class="round-tabs five"><i class="glyphicon glyphicon-ok"></i></span>
 												</a>
 											</li>

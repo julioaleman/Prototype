@@ -1,8 +1,5 @@
 package mx.gob.shcp.dgtsi.sfu.controller;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,10 +11,9 @@ public class MainController {
 	@RequestMapping(method = RequestMethod.GET, value = "/inicio.do")
 	public String inicio(Model model){
 		
-		List<String> lista = new ArrayList<String>();
-		lista.add("lista1");
+		model.addAttribute("esCaptura", "false");
+		model.addAttribute("esRevisor", "true");
 		
-		model.addAttribute("var", "Hola");
 		
 		return "inicio";
 	}

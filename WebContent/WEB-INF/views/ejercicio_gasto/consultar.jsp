@@ -30,19 +30,48 @@
 					<div class="col-md-12">
 						<div class="box box-info">
 							<div class="box-body">
-								<div class="col-md-6">
+								<div class="col-md-4">
 									<div class="form-group">
-										<label for="estado">Ramo</label>
-										<input type="text" class="form-control" placeholder="Ramo">
+										<label>Ramo</label>
+										<select class="form-control">
+											<option value="0">Selecciona el ramo</option>
+											<option>option 1</option>
+											<option>option 2</option>
+											<option>option 3</option>
+											<option>option 4</option>
+											<option>option 5</option>
+										</select>
 									</div>
 								</div>
-								<div class="col-md-6">
+								<div class="col-md-4">
 									<div class="form-group">
-										<label for="estado">Ramo</label>
-										<input type="text" class="form-control" placeholder="Ramo">
+										<label>Programa</label>
+										<select class="form-control">
+											<option value="0">Selecciona el programa</option>
+											<option>option 1</option>
+											<option>option 2</option>
+											<option>option 3</option>
+											<option>option 4</option>
+											<option>option 5</option>
+										</select>
 									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="form-group">
+										<label>Ciclo del Recurso</label>
+										<select class="form-control">
+											<option value="0">Selecciona ciclo del recurso</option>
+											<option>option 1</option>
+											<option>option 2</option>
+											<option>option 3</option>
+											<option>option 4</option>
+											<option>option 5</option>
+										</select>
+									</div>
+									<button type="button" class="btn btn-primary pull-right">Consultar &nbsp;<i class="fa fa-search"></i></button>
 								</div>
 								<div class="col-md-12">
+									<hr>
 									<table id="af_table" class="table table-bordered tree">
 										<thead>
 											<tr>

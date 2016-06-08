@@ -1,3 +1,6 @@
+<noscript>
+    <p>Por favor de habilitar Javascript para un buen funcionamiento en la página.</p>
+</noscript>
 <header class="main-header">
 <!-- esto es un cambio -->
 	<!-- Header Navbar: style can be found in header.less -->

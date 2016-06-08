@@ -28,7 +28,7 @@
 
 				<div class="row">
 					<div class="col-md-12">
-						<div class="box box-success">
+						<div class="box box-info">
 							<div class="box-body">
 
 								<div class="board">
@@ -60,7 +60,7 @@
 											</li>
 
 											<li class="disabled"><a href="#doner" data-toggle="tab"
-												title="completed"> <span class="round-tabs five">
+												title="¡Completado!"> <span class="round-tabs five">
 														<i class="glyphicon glyphicon-ok"></i>
 												</span>
 											</a></li>
@@ -77,16 +77,16 @@
 												</div>
 												
 												<div class="col-md-3">
-													<div class="callout callout-success">
+													<div class="callout callout-info">
 									                    <h4>Instrucciones:</h4>
-									                    <p>Paso 1: Haz algo</p>
-									                    <p>Paso 1: Haz algo</p>
-									                    <p>Paso 1: Haz algo</p>
-									                    <p>Paso 1: Haz algo</p>
+									                    <p>1.- Descarga la plantilla</p>
+									                    <p>2.- Completa la plantilla con los valores que se establecen en los catálogos de la plantilla</p>
+									                    <p>3.- Cargar la plantilla en el sistema</p>
+									                    <p>4.- Conserva tu identificador de carga masiva para continuar con la carga de fuente de financiamiento, avance financiero y físico del proyecto.</p>
 									                </div>
 													<div class="form-group">
 														<label for="nombreProyecto">Descargar Plantilla</label> 
-														<button type="button" class="btn btn-success btn-block"><i class="icon fa fa-download"></i> Descargar</button>
+														<button type="button" class="btn btn-info bg-aqua btn-block"><i class="icon fa fa-download"></i> Descargar</button>
 													</div>
 													<div class="form-group">
 														<label for="nombreProyecto">Cargar Plantilla</label> 
@@ -98,13 +98,13 @@
 													<table id="carga_table" class="table table-bordered table-striped">
 														<thead>
 															<tr>
+																<th>Identificador de carga</th>
 																<th>Nombre</th>
 																<th>Entidad</th>
 																<th>Municipio</th>
 																<th>Tipo</th>
 																<th>Clasificación</th>
 																<th>Institución</th>
-																<th>Fecha Inicio</th>
 															</tr>
 														</thead>
 														<tbody>
@@ -114,8 +114,10 @@
 												</div>
 												
 												<div class="col-md-12">
-													<ul class="list-inline pull-right">
-						                            	<li>
+													<hr>
+													<ul class="list-inline">
+														<li class="pull-left"><a href="inicio.do" class="btn btn-danger btn-lg"><i class="fa fa-times"></i> Cancelar</a></li>
+						                            	<li class="pull-right">
 						                            		<form class="form-horizontal text-center" id="profile_form" name="profile_form" role="form">
 																<fieldset>
 																	<button type="submit" href="#profile" name="profile_form" class="btn-submit btn btn-primary btn-lg">
@@ -137,16 +139,16 @@
 												</div>
 												
 												<div class="col-md-3">
-													<div class="callout callout-success">
+													<div class="callout callout-info">
 									                    <h4>Instrucciones:</h4>
-									                    <p>Paso 1: Haz algo</p>
-									                    <p>Paso 1: Haz algo</p>
-									                    <p>Paso 1: Haz algo</p>
-									                    <p>Paso 1: Haz algo</p>
+									                    <p>1.- Descarga la plantilla</p>
+									                    <p>2.- Completa la plantilla con los valores que se establecen en los catálogos de la plantilla</p>
+									                    <p>3.- Cargar la plantilla en el sistema</p>
+									                    <p>4.- Conserva tu identificador de carga masiva para continuar con la carga de fuente de financiamiento, avance financiero y físico del proyecto.</p>
 									                </div>
 													<div class="form-group">
 														<label for="nombreProyecto">Descargar Plantilla</label> 
-														<button type="button" class="btn btn-success btn-block"><i class="icon fa fa-download"></i> Descargar</button>
+														<button type="button" class="btn btn-info bg-aqua btn-block"><i class="icon fa fa-download"></i> Descargar</button>
 													</div>
 													<div class="form-group">
 														<label for="nombreProyecto">Cargar Plantilla</label> 
@@ -158,13 +160,12 @@
 													<table id="ff_table" class="table table-bordered table-striped">
 														<thead>
 															<tr>
-																<th>Folio</th>
+																<th>Identificador de carga</th>
 																<th>Nombre</th>
-																<th>Municipio</th>
-																<th>Tipo</th>
-																<th>Clasificación</th>
-																<th>Institución</th>
-																<th>Fecha Inicio</th>
+																<th>Tipo de Recurso</th>
+																<th>Ramo</th>
+																<th>Programa Presupuestario</th>
+																<th>Aprovado</th>
 															</tr>
 														</thead>
 														<tbody>
@@ -174,22 +175,23 @@
 												</div>
 												
 												<div class="col-md-12">
-													<ul class="list-inline pull-right">
-														<!-- <li><button type="button" class="btn btn-default next-step">Skip</button></li> -->
-							                            <li>
-							                            	<form class="form-horizontal text-center" id="profile_form" name="profile_form" role="form">
-																<fieldset>
-																	<button type="submit" href="#home" name="profile_form" class="btn-submit btn btn-default btn-lg">
-																		<i class="fa fa-arrow-left"></i>&nbsp;&nbsp; Anterior
-																	</button> 
-																</fieldset> 
-															</form>
-														</li>
-						                            	<li>
+													<hr>
+													<ul class="list-inline">
+														<li class="pull-left"><a href="inicio.do" class="btn btn-danger btn-lg"><i class="fa fa-times"></i> Cancelar</a></li>
+														<li class="pull-right">
 						                            		<form class="form-horizontal text-center" id="profile_form" name="profile_form" role="form">
 																<fieldset>
 																	<button type="submit" href="#messages" name="profile_form" class="btn-submit btn btn-primary btn-lg">
 																		Guardar y Continuar &nbsp;&nbsp;<i class="fa fa-arrow-right"></i>
+																	</button> 
+																</fieldset> 
+															</form>
+														</li>
+							                            <li class="pull-right">
+							                            	<form class="form-horizontal text-center" id="profile_form" name="profile_form" role="form">
+																<fieldset>
+																	<button type="submit" href="#home" name="profile_form" class="btn-submit btn btn-default btn-lg">
+																		<i class="fa fa-arrow-left"></i>&nbsp;&nbsp; Anterior
 																	</button> 
 																</fieldset> 
 															</form>
@@ -207,16 +209,16 @@
 												</div>
 												
 												<div class="col-md-3">
-													<div class="callout callout-success">
+													<div class="callout callout-info">
 									                    <h4>Instrucciones:</h4>
-									                    <p>Paso 1: Haz algo</p>
-									                    <p>Paso 1: Haz algo</p>
-									                    <p>Paso 1: Haz algo</p>
-									                    <p>Paso 1: Haz algo</p>
+									                    <p>1.- Descarga la plantilla</p>
+									                    <p>2.- Completa la plantilla con los valores que se establecen en los catálogos de la plantilla</p>
+									                    <p>3.- Cargar la plantilla en el sistema</p>
+									                    <p>4.- Conserva tu identificador de carga masiva para continuar con la carga de fuente de financiamiento, avance financiero y físico del proyecto.</p>
 									                </div>
 													<div class="form-group">
 														<label for="nombreProyecto">Descargar Plantilla</label> 
-														<button type="button" class="btn btn-success btn-block"><i class="icon fa fa-download"></i> Descargar</button>
+														<button type="button" class="btn btn-info bg-aqua btn-block"><i class="icon fa fa-download"></i> Descargar</button>
 													</div>
 													<div class="form-group">
 														<label for="nombreProyecto">Cargar Plantilla</label> 
@@ -228,13 +230,14 @@
 													<table id="contrato_table" class="table table-bordered table-striped">
 														<thead>
 															<tr>
-																<th>Folio</th>
-																<th>Nombre</th>
-																<th>Municipio</th>
-																<th>Tipo</th>
-																<th>Clasificación</th>
-																<th>Institución</th>
-																<th>Fecha Inicio</th>
+																<th>Identificador de carga</th>
+																<th>Tipo de Obra</th>
+																<th>Número</th>
+																<th>Contratista</th>
+																<th>Convocante</th>
+																<th>Monto</th>
+																<th>Importe Modificado</th>
+																<th>Eliminar</th>
 															</tr>
 														</thead>
 														<tbody>
@@ -244,22 +247,23 @@
 												</div>
 												
 												<div class="col-md-12">
-													<ul class="list-inline pull-right">
-														<!-- <li><button type="button" class="btn btn-default next-step">Skip</button></li> -->
-							                            <li>
-							                            	<form class="form-horizontal text-center" id="profile_form" name="profile_form" role="form">
-																<fieldset>
-																	<button type="submit" href="#profile" name="profile_form" class="btn-submit btn btn-default btn-lg">
-																		<i class="fa fa-arrow-left"></i>&nbsp;&nbsp; Anterior
-																	</button> 
-																</fieldset> 
-															</form>
-														</li>
-						                            	<li>
+													<hr>
+													<ul class="list-inline">
+														<li class="pull-left"><a href="inicio.do" class="btn btn-danger btn-lg"><i class="fa fa-times"></i> Cancelar</a></li>
+														<li class="pull-right">
 						                            		<form class="form-horizontal text-center" id="profile_form" name="profile_form" role="form">
 																<fieldset>
 																	<button type="submit" href="#settings" name="profile_form" class="btn-submit btn btn-primary btn-lg">
 																		Guardar y Continuar &nbsp;&nbsp;<i class="fa fa-arrow-right"></i>
+																	</button> 
+																</fieldset> 
+															</form>
+														</li>
+							                            <li class="pull-right">
+							                            	<form class="form-horizontal text-center" id="profile_form" name="profile_form" role="form">
+																<fieldset>
+																	<button type="submit" href="#profile" name="profile_form" class="btn-submit btn btn-default btn-lg">
+																		<i class="fa fa-arrow-left"></i>&nbsp;&nbsp; Anterior
 																	</button> 
 																</fieldset> 
 															</form>
@@ -287,7 +291,7 @@
 																<div class="panel box box-primary">
 																	<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
 																		<div class="box-header with-border">
-																			<h4 class="box-title">Proyecto: DGFC3453KH45345</h4>
+																			<h4 class="box-title">Identificador de carga: DGFC3453KH45345</h4>
 																		</div>
 																	</a>
 																	<div id="collapseOne" class="panel-collapse collapse in">
@@ -304,7 +308,7 @@
 																<div class="panel box box-danger">
 																	<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
 																		<div class="box-header with-border">
-																			<h4 class="box-title">Proyecto: KJHBJHBL345LJ346</h4>
+																			<h4 class="box-title">Identificador de carga: KJHBJHBL345LJ346</h4>
 																		</div>
 																	</a>
 																	<div id="collapseTwo" class="panel-collapse collapse">
@@ -321,7 +325,7 @@
 																<div class="panel box box-success">
 																	<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
 																		<div class="box-header with-border">
-																			<h4 class="box-title">Proyecto: LKJ2345LK234J5</h4>
+																			<h4 class="box-title">Identificador de carga: LKJ2345LK234J5</h4>
 																		</div>
 																	</a>
 																	<div id="collapseThree" class="panel-collapse collapse">
@@ -342,9 +346,18 @@
 												</div>
 			
 												<div class="col-md-12">
-													<hr>
-													<ul class="list-inline pull-right">
-							                            <li>
+													<ul class="list-inline">
+														<li class="pull-left"><a href="inicio.do" class="btn btn-danger btn-lg"><i class="fa fa-times"></i> Cancelar</a></li>
+							                            <li class="pull-right">
+							                            	<form class="form-horizontal text-center" id="settings_form" name="settings_form" role="form">
+																<fieldset>
+																	<button type="submit" href="#doner" name="settings_form" class="btn-submit btn btn-primary btn-lg">
+																		Guardar y Continuar &nbsp;&nbsp;<i class="fa fa-arrow-right"></i>
+																	</button>
+																</fieldset>
+															</form>
+							                            </li>
+							                            <li class="pull-right">
 							                            	<form class="form-horizontal text-center" id="profile_form" name="profile_form" role="form">
 																<fieldset>
 																	<button type="submit" href="#messages" name="profile_form" class="btn-submit btn btn-default btn-lg">
@@ -353,35 +366,158 @@
 																</fieldset> 
 															</form>
 														</li>
-							                            <li>
-							                            	<form class="form-horizontal text-center" id="settings_form" name="settings_form" role="form">
-																<fieldset>
-																	<button type="submit" href="#doner" name="settings_form" class="btn-submit btn btn-primary btn-lg">
-																		Guardar y Continuar &nbsp;&nbsp;<i class="fa fa-arrow-right"></i>
-																	</button>
-																</fieldset>
-															</form>
-							                            
-							                            </li>
 							                        </ul>
 												</div>
 											</div>
 										</div>
 										<div class="tab-pane fade" id="doner">
-											<h3>¡Proyecto Registrado!</h3>
-					                        <p>Haz completado satisfactoriamente el registro del proyecto. Espera la validación de la entidad federativa.</p>
-					                        <div class="box">
-											  	<div class="box-body">
-											    	<div class="info-box">
-														<span class="info-box-icon bg-green"><i class="fa fa-map-marker"></i></span>
-													  	<div class="info-box-content">
-													    	<span class="info-box-text">Folio del Proyecto</span>
-													    	<span class="info-box-number">ETG139456GSFD55</span>
-													  	</div>
-												  	</div>
-												  	
-											  	</div><!-- /.box-body -->
-											</div><!-- /.box -->
+											<div class="col-md-12">
+												<h3>¡Proyectos Registrados!</h3>
+						                        <p>Haz completado satisfactoriamente el registro de los proyectos. Espera la validación de la entidad federativa.</p>
+						                        <ul class="list-inline">
+													<li><button type="button" class="btn btn-info bg-aqua btn-lg"><i class="fa fa-download"></i> Descargar</button></li>
+													<li><a href="inicio.do" class="btn btn-info bg-aqua btn-lg"><i class="fa fa-check"></i> Finalizar</a></li>
+						                        </ul>
+						                        <table id="detalles_table" class="table table-bordered table-striped">
+													<thead>
+														<tr>
+															<th>Nombre del Proyecto</th>
+															<th>Tipo</th>
+															<th>Clasificación</th>
+															<th>Institución Ejecutora</th>
+															<th>Dirección</th>
+															<th>Fecha de Inicio</th>
+															<th>Fecha estimada de término</th>
+															<th>Beneficiados</th>
+															<th>Acción</th>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<td>Escuela Primaria Benito Juarez</td>
+															<td>Aquí va el tipo</td>
+															<td>Clasificación</td>
+															<td>Secretaría de Educación Infantil</td>
+															<td>Av. Constiruyentes No. 1001, Belén de las flores</td>
+															<td>01/02/2015</td>
+															<td>02/11/2022</td>
+															<td>10 hombre, 20 mujeres</td>
+															<td><a href="registrar-avance.do"><i class="fa fa-pencil"></i>&nbsp; Registrar Avance</a></td>
+														</tr>
+														<tr>
+															<td>Autopista México - La Marquesa</td>
+															<td>Aquí va el tipo</td>
+															<td>Clasificación</td>
+															<td>Secretaría de Comunicaciones y Transportes</td>
+															<td>Av. Constiruyentes No. 1001, Belén de las flores</td>
+															<td>01/02/2015</td>
+															<td>02/11/2022</td>
+															<td>SB</td>
+															<td><a href="registrar-avance.do"><i class="fa fa-pencil"></i>&nbsp; Registrar Avance</a></td>
+														</tr>
+														<tr>
+															<td>Escuela Primaria Benito Juarez</td>
+															<td>Aquí va el tipo</td>
+															<td>Clasificación</td>
+															<td>Secretaría de Educación Infantil</td>
+															<td>Av. Constiruyentes No. 1001, Belén de las flores</td>
+															<td>01/02/2015</td>
+															<td>02/11/2022</td>
+															<td>10 hombre, 20 mujeres</td>
+															<td><a href="registrar-avance.do"><i class="fa fa-pencil"></i>&nbsp; Registrar Avance</a></td>
+														</tr>
+														<tr>
+															<td>Autopista México - La Marquesa</td>
+															<td>Aquí va el tipo</td>
+															<td>Clasificación</td>
+															<td>Secretaría de Comunicaciones y Transportes</td>
+															<td>Av. Constiruyentes No. 1001, Belén de las flores</td>
+															<td>01/02/2015</td>
+															<td>02/11/2022</td>
+															<td>SB</td>
+															<td><a href="registrar-avance.do"><i class="fa fa-pencil"></i>&nbsp; Registrar Avance</a></td>
+														</tr>
+														<tr>
+															<td>Escuela Primaria Benito Juarez</td>
+															<td>Aquí va el tipo</td>
+															<td>Clasificación</td>
+															<td>Secretaría de Educación Infantil</td>
+															<td>Av. Constiruyentes No. 1001, Belén de las flores</td>
+															<td>01/02/2015</td>
+															<td>02/11/2022</td>
+															<td>10 hombre, 20 mujeres</td>
+															<td><a href="registrar-avance.do"><i class="fa fa-pencil"></i>&nbsp; Registrar Avance</a></td>
+														</tr>
+														<tr>
+															<td>Autopista México - La Marquesa</td>
+															<td>Aquí va el tipo</td>
+															<td>Clasificación</td>
+															<td>Secretaría de Comunicaciones y Transportes</td>
+															<td>Av. Constiruyentes No. 1001, Belén de las flores</td>
+															<td>01/02/2015</td>
+															<td>02/11/2022</td>
+															<td>SB</td>
+															<td><a href="registrar-avance.do"><i class="fa fa-pencil"></i>&nbsp; Registrar Avance</a></td>
+														</tr>
+														<tr>
+															<td>Escuela Primaria Benito Juarez</td>
+															<td>Aquí va el tipo</td>
+															<td>Clasificación</td>
+															<td>Secretaría de Educación Infantil</td>
+															<td>Av. Constiruyentes No. 1001, Belén de las flores</td>
+															<td>01/02/2015</td>
+															<td>02/11/2022</td>
+															<td>10 hombre, 20 mujeres</td>
+															<td><a href="registrar-avance.do"><i class="fa fa-pencil"></i>&nbsp; Registrar Avance</a></td>
+														</tr>
+														<tr>
+															<td>Autopista México - La Marquesa</td>
+															<td>Aquí va el tipo</td>
+															<td>Clasificación</td>
+															<td>Secretaría de Comunicaciones y Transportes</td>
+															<td>Av. Constiruyentes No. 1001, Belén de las flores</td>
+															<td>01/02/2015</td>
+															<td>02/11/2022</td>
+															<td>SB</td>
+															<td><a href="registrar-avance.do"><i class="fa fa-pencil"></i>&nbsp; Registrar Avance</a></td>
+														</tr>
+														<tr>
+															<td>Escuela Primaria Benito Juarez</td>
+															<td>Aquí va el tipo</td>
+															<td>Clasificación</td>
+															<td>Secretaría de Educación Infantil</td>
+															<td>Av. Constiruyentes No. 1001, Belén de las flores</td>
+															<td>01/02/2015</td>
+															<td>02/11/2022</td>
+															<td>10 hombre, 20 mujeres</td>
+															<td><a href="registrar-avance.do"><i class="fa fa-pencil"></i>&nbsp; Registrar Avance</a></td>
+														</tr>
+														<tr>
+															<td>Autopista México - La Marquesa</td>
+															<td>Aquí va el tipo</td>
+															<td>Clasificación</td>
+															<td>Secretaría de Comunicaciones y Transportes</td>
+															<td>Av. Constiruyentes No. 1001, Belén de las flores</td>
+															<td>01/02/2015</td>
+															<td>02/11/2022</td>
+															<td>SB</td>
+															<td><a href="registrar-avance.do"><i class="fa fa-pencil"></i>&nbsp; Registrar Avance</a></td>
+														</tr>
+														<tr>
+															<td>Escuela Primaria Benito Juarez</td>
+															<td>Aquí va el tipo</td>
+															<td>Clasificación</td>
+															<td>Secretaría de Educación Infantil</td>
+															<td>Av. Constiruyentes No. 1001, Belén de las flores</td>
+															<td>01/02/2015</td>
+															<td>02/11/2022</td>
+															<td>10 hombre, 20 mujeres</td>
+															<td><a href="registrar-avance.do"><i class="fa fa-pencil"></i>&nbsp; Registrar Avance</a></td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+											
 										</div>
 										<div class="clearfix"></div>
 									</div>
@@ -561,6 +697,39 @@
 					"zeroRecords" : "No se ha cargado la plantilla.",
 					"infoEmpty" : "No records available"
 				}
+			});
+			
+			$("#detalles_table").DataTable({
+				"paging" : true,
+				"lengthChange" : false,
+				"searching" : true,
+				"info" : false,
+// 				"scrollX": true,
+				"lengthMenu": [[ 10, 25, 50, -1], [ 10, 25, 50, "Todos"]],
+				"language": {
+	            	"decimal":        "",
+	                "emptyTable":     "Sin proyectos por mostrar",
+	                "info":           "Mostrando _START_ de _END_ de _TOTAL_ proyectos",
+	                "infoEmpty":      "0 proyectos",
+	                "infoFiltered":   "(filtered from _MAX_ total entries)",
+	                "infoPostFix":    "",
+	                "thousands":      ",",
+	                "lengthMenu":     "Mostrar _MENU_ proyectos",
+	                "loadingRecords": "Cargando...",
+	                "processing":     "Procesando...",
+	                "search":         "Buscar:",
+	                "zeroRecords":    "Ningún proyecto encontrado",
+	                "paginate": {
+	                    "first":      "Primero",
+	                    "last":       "Último",
+	                    "next":       "Siguiente",
+	                    "previous":   "Anterior"
+	                },
+	                "aria": {
+	                    "sortAscending":  ": activate to sort column ascending",
+	                    "sortDescending": ": activate to sort column descending"
+	                }
+	            }
 			});
 			
 			
